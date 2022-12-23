@@ -1,5 +1,5 @@
 //
-//  TitleCollectionViewCell.swift
+//  MovieCollectionViewCell.swift
 //  netlfix-clone
 //
 //  Created by Javokhir Savriev on 09/11/22.
@@ -8,9 +8,9 @@
 import UIKit
 import SDWebImage
 
-class TitleCollectionViewCell: UICollectionViewCell {
+class MovieCollectionViewCell: UICollectionViewCell {
     
-    static let identifier = "TitleCollectionViewCell"
+    static let identifier = "MovieCollectionViewCell"
     
     private let posterImageView: UIImageView = {
         let imageView = UIImageView()
